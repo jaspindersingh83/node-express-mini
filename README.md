@@ -51,7 +51,7 @@ When the client makes a `POST` request to `/guess`:
   be the key and the value should be a string containing only a single
   character. If there's an error, send an object of the form
   `{ error: "Error message" }` as a JSON response. Make sure to respond with
-  an appropriate status code.
+  an appropriate [status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses).
 
 - If the client has already guessed this letter, respond with an error in the
   same format as mentioned above.
